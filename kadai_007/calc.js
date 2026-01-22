@@ -1,8 +1,5 @@
 // 変数numに任意の整数を代入する
-let num = 15;
-
-// 変数numの値を出力する（確認用）
-console.log(num);
+let num = 30;
 
 // 変数numが3と5の倍数の場合：「3と5の倍数です」と出力する
 if (num % 3 === 0 && num % 5 === 0) {
@@ -21,5 +18,5 @@ else if (num % 5 === 0) {
 
 // それ以外の場合：変数numの値を出力する
 else {
-    console.log('num');
+    console.log(num);
 }
